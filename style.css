@@ -5,7 +5,8 @@ body {
     font-family: Helvetica;
     color: gray;
 }
-#title {font-family: Helvetica; font-size: 30px:;}
+#title {font-family: Helvetica; font-size: 30pt; border: solid; 
+	border-bottom-color: black; border-bottom-width: 3px}
 #subheading {
 	font-family: Helvetica;
 }
@@ -17,5 +18,5 @@ body {
    position: fixed;
    left: 0px;
    top: 0px;
-   border: 3px solid blue;
+   background-color: green;
 }
