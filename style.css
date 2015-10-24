@@ -2,6 +2,9 @@ body {
     background-color: yellow;
 }
 .credits {
-    font: arial;
+    font-family: Verdana, Geneva, sans-serif;
     color: red;
+}
+#subheading {
+	font-family:"Comic Sans MS", cursive, sans-serif;
 }
