@@ -1,10 +1,21 @@
 body {
-    background-color: yellow;
+    background-color: white;
 }
 .credits {
-    font-family: Verdana, Geneva, sans-serif;
-    color: red;
+    font-family: Helvetica;
+    color: gray;
 }
+#title {font-family: Helvetica; font-size: 30px:;}
 #subheading {
-	font-family:"Comic Sans MS", cursive, sans-serif;
+	font-family: Helvetica;
+}
+
+.sidebar {
+	overflow:auto;
+   width: 260px;
+   height: 100%;
+   position: fixed;
+   left: 0px;
+   top: 0px;
+   border: 3px solid blue;
 }
