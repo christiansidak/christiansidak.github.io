@@ -1,14 +1,28 @@
 body {
     background-color: white;
+    margin-top: 200px;
+    margin-left: 270px;
 }
 .credits {
     font-family: Helvetica;
     color: gray;
 }
-#title {font-family: Helvetica; font-size: 30pt; border: solid; 
-	border-bottom-color: black; border-bottom-width: 3px}
+#title {font-family: knuckledown; color: black; font-size: 30pt;
+}
+
+#side_title {font-family: knuckledown; color: white; font-size: 30pt;
+}
+
 #subheading {
-	font-family: Helvetica;
+	font-family: Helvetica; color:gray;
+}
+
+.floating-box {
+    display: inline-block;
+    width: 150px;
+    height: 75px;
+    margin: 10px;
+    border: 3px solid #8AC007; 
 }
 
 .sidebar {
@@ -18,5 +32,9 @@ body {
    position: fixed;
    left: 0px;
    top: 0px;
-   background-color: green;
+   background-color: #000080;
 }
+@font-face {
+	font-family: knuckledown
+	src: url('FONTS/kd.ttf);
+
